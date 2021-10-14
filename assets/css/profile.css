@@ -1,0 +1,55 @@
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  list-style: none;
+}
+ul li a{
+  text-decoration:none
+}
+.profile_menu li ul{
+  display: none;
+}
+/**
+ * Globel Css End
+ =================*/
+
+.profile-menu-area .profile_menu > li a{
+  cursor: pointer;
+  padding: 15px;
+  overflow: hidden;
+  border-bottom: 1px solid #f7f7f7;
+  color: #2A282D;
+  background:#999;
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.singlepmenu {
+  position: relative;
+  display: block;
+}
+
+
+.profile_menu li ul {
+  background: #F7F6F9;
+}
+.profile-menu-area .profile_menu > li ul > li > a {
+  display: block;
+  padding: 10px 25px;
+  text-transform: capitalize;
+  border-bottom: 1px solid #ccc;
+  transition: all 0.3s ease-in-out;
+}
+
+.profile-menu-area .profile_menu > li ul  {
+   margin-bottom: 10px; 
+}
+.profile-menu-area .profile_menu > li ul > li > a:hover {
+  padding-left: 28px;
+  background: #ddd;
+}
